@@ -1,0 +1,10 @@
+services:
+  raster-resampling-app:
+    build:
+      context: ./raster-resampling-app
+    volumes:
+      - ./raster-resampling-app/input:/data/input
+      - ./raster-resampling-app/output:/data/output
+    environment:
+      - INPUT_FILENAME=input.tif
+      - OUTPUT_FILENAME=resampled.tif
