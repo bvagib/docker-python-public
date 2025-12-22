@@ -1,0 +1,6 @@
+raster-resampling-app/input/*
+raster-resampling-app/output/*
+!raster-resampling-app/input/.gitkeep
+!raster-resampling-app/output/.gitkeep
+__pycache__/
+.env
