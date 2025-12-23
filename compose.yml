@@ -8,3 +8,5 @@ services:
     environment:
       - INPUT_FILENAME=input.tif
       - OUTPUT_FILENAME=resampled.tif
+      - TARGET_RES=100
+      - RESAMPLE_ALG=near
