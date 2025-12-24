@@ -7,5 +7,5 @@ services:
       - ./raster-resampling-app/output:/data/output
     environment:
       - INPUT_FILENAME=
-      - TARGET_RES=100
-      - RESAMPLE_ALG=near
+      - TARGET_RES=
+      - RESAMPLE_ALG=
