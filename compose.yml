@@ -6,7 +6,6 @@ services:
       - ./raster-resampling-app/input:/data/input
       - ./raster-resampling-app/output:/data/output
     environment:
-      - INPUT_FILENAME=input.tif
-      - OUTPUT_FILENAME=resampled.tif
+      - INPUT_FILENAME=
       - TARGET_RES=100
       - RESAMPLE_ALG=near
